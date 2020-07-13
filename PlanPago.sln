@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanPago.api", "PlanPago.api\PlanPago.api.csproj", "{3AA0D2C7-6033-4D86-BF2A-D1B63DBD4F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagoPlan.Core", "PagoPlan.domain\PagoPlan.Core.csproj", "{936F8929-9EC4-4D97-A94B-75EA0C16C020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanPago.Infrastructure", "PlanPago.Infrastructure\PlanPago.Infrastructure.csproj", "{AE04CD2B-21A4-4484-99BE-78443890EBCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AA0D2C7-6033-4D86-BF2A-D1B63DBD4F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA0D2C7-6033-4D86-BF2A-D1B63DBD4F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA0D2C7-6033-4D86-BF2A-D1B63DBD4F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA0D2C7-6033-4D86-BF2A-D1B63DBD4F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936F8929-9EC4-4D97-A94B-75EA0C16C020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936F8929-9EC4-4D97-A94B-75EA0C16C020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936F8929-9EC4-4D97-A94B-75EA0C16C020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936F8929-9EC4-4D97-A94B-75EA0C16C020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE04CD2B-21A4-4484-99BE-78443890EBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE04CD2B-21A4-4484-99BE-78443890EBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE04CD2B-21A4-4484-99BE-78443890EBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE04CD2B-21A4-4484-99BE-78443890EBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {476A0E41-6BFF-4317-BCEA-5FFA1B03DF6F}
+	EndGlobalSection
+EndGlobal
